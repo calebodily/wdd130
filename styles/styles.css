@@ -50,6 +50,10 @@ p {
     padding: 0;
 }
 
+ul {
+    width: 570px;
+}
+
 aside {
     Width: 20rem;
     margin: 1rem;
@@ -69,7 +73,7 @@ aside img {
 aside h2 {
     position: absolute;
     top: 80px;
-    left: 60px;
+    left: 65px;
     color: var(--background-color);
 }
 
