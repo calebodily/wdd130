@@ -1,9 +1,9 @@
 :root {
     --primary-color: #D78426;
-    --secondary-color: #27A2D6;
+    /* --secondary-color: #27A2D6; */
     --accent1-color: #574A3B;
     --accent2-color: #426F81;
-    --heading-font: Roboto, Arial, sans-serif;
+    --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
 
@@ -39,7 +39,7 @@ footer {
     color: #fff;
 }
 
-h1 {
+.hero h1 {
     opacity: 0.7;
     position: absolute;
     top: 10px;
@@ -63,7 +63,7 @@ article {
     padding: 8px;
 }
 
-article {
+.hero article {
     position: absolute;
     top: 390px;
     width: 90%;
