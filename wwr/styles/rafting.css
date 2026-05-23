@@ -1,6 +1,6 @@
 :root {
     --primary-color: #D78426;
-    /* --secondary-color: #27A2D6; */
+    --secondary-color: #fff;
     --accent1-color: #574A3B;
     --accent2-color: #426F81;
     --heading-font: "Times New Roman", "Georgia", serif;
@@ -36,7 +36,7 @@ footer {
 }
 
 .hero p {
-    color: #fff;
+    color: var(--secondary-color);
 }
 
 .hero h1 {
