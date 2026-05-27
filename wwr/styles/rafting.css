@@ -65,9 +65,15 @@ article {
 
 .hero article {
     position: absolute;
-    top: 390px;
-    width: 90%;
+    top: 375px;
+    width: 95;
     background-color: var(--accent2-color);
+}
+
+.hero article h2 {
+    font-family: var(--heading-font);
+    background-color: var(--accent2-color);
+    padding: 0;
 }
 
 .hero article img {
