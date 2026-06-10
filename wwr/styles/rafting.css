@@ -232,3 +232,27 @@
     .indent {
         margin-left: 35px;
     }
+
+    .newsletter {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .centervert {
+        display: grid;
+        align-items: center;
+    }
+
+    .conquer {
+        text-align: center;
+        display: grid;
+        align-items: center;
+    }
+
+    .conquer2 {
+        width: 300px;
+    }
+
+    .conquer3 {
+        text-decoration: underline;
+    }
