@@ -99,7 +99,6 @@
     .hero article {
         position: absolute;
         top: 375px;
-        width: 95;
         background-color: var(--accent2-color);
     }
 
