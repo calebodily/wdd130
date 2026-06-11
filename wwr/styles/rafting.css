@@ -256,3 +256,16 @@
     .conquer3 {
         text-decoration: underline;
     }
+
+    .river {
+        width: 250px;
+        text-align: center;
+        margin: 5px;
+    }
+
+    th,
+    td {
+        border: solid 1px black;
+        padding: 5px;
+        text-align: center;
+    }
