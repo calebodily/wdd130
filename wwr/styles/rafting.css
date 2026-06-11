@@ -1,8 +1,8 @@
     /* --accent3-color: #5C697D; */
-    /* --secondary-color: white; */
 
     :root {
         --primary-color: black;
+        --secondary-color: white;
         --accent1-color: #A7A296;
         --accent2-color: #8EB9FC;
         --heading-font: "Times New Roman", "Georgia", serif;
@@ -261,6 +261,13 @@
         width: 250px;
         text-align: center;
         margin: 5px;
+    }
+
+    .h2undo {
+        width: auto;
+        padding: 5px;
+        text-align: center;
+        background-color: var(--secondary-color);
     }
 
     th,
