@@ -32,50 +32,48 @@
             <p class="contact">info@rapidriders.com</p>
         </div>
         <section class="form">
-            <div>
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2721.58125998731!2d-122.03680463653374!3d38.23973826418549!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1780767850514!5m2!1sen!2sus"
-                  width="600" height="450" allowfullscreen="" loading="lazy"
-                  referrerpolicy="no-referrer-when-downgrade"></iframe>
-                <form>
-                    <div class="quiz-item">
-                        <label for="name">Name</label>
-                        <input type="text" id="name" name="name" required>
+            <h2>Form</h2>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2721.58125998731!2d-122.03680463653374!3d38.23973826418549!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1780767850514!5m2!1sen!2sus"
+              width="600" height="450" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <form>
+                <div class="quiz-item">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="quiz-item">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email" required>
+                </div>
+                <div class="quiz-item radio">
+                    <div class="radio-pos">
+                        <label for="general">Message Purpose</label>
                     </div>
-                    <div class="quiz-item">
-                        <label for="email">Email</label>
-                        <input type="text" id="email" name="email" required>
+                    <div class="radio-pos2">
+                        <label for="general">General Inquiry</label>
+                        <input type="radio" id="general" name="message" required>
                     </div>
-                    <div class="quiz-item radio">
-                        <div class="radio-pos">
-                            <label for="general">Message Purpose</label>
-                        </div>
-                        <div class="radio-pos2">
-                            <label for="general">General Inquiry</label>
-                            <input type="radio" id="general" name="message" required>
-                        </div>
-                        <div class="radio-pos2">
-                            <label for="question">Question</label>
-                            <input type="radio" id="question" name="message" required>
-                        </div>
-                        <div class="radio-pos2">
-                            <label for="website">Website Suggestion</label>
-                            <input type="radio" id="website" name="message" required>
-                        </div>
+                    <div class="radio-pos2">
+                        <label for="question">Question</label>
+                        <input type="radio" id="question" name="message" required>
                     </div>
-                    <div class="quiz-item">
-                        <label for="message2">Message</label>
-                        <textarea class="textarea" id="message2" name="message2"
-                          required></textarea>
+                    <div class="radio-pos2">
+                        <label for="website">Website Suggestion</label>
+                        <input type="radio" id="website" name="message" required>
                     </div>
-                    <div class="quiz-item">
-                        <label><input type="checkbox" id="newsletter" name="newsletter"> Please
-                            Subscribe me
-                            to the monthly newsletter</label>
-                    </div>
-                    <button class="quiz-item" type="submit">Submit Form</button>
-                </form>
-            </div>
+                </div>
+                <div class="quiz-item">
+                    <label for="message2">Message</label>
+                    <textarea class="textarea" id="message2" name="message2" required></textarea>
+                </div>
+                <div class="quiz-item">
+                    <label><input type="checkbox" id="newsletter" name="newsletter"> Please
+                        Subscribe me
+                        to the monthly newsletter</label>
+                </div>
+                <button class="quiz-item" type="submit">Submit Form</button>
+            </form>
         </section>
         <section class="employee">
             <h2 class="serve">We are Here to Serve You</h2>
